@@ -1,0 +1,167 @@
+page {
+	background: #F1F2FF;
+}
+
+.logo_kh_drt {
+	width: 100upx;
+	height: 100upx;
+
+}
+
+.df_jh_drrttg {
+	height: 70upx;
+	border-bottom: 1px solid #fff;
+	position: relative;
+}
+
+.df_jh_drrttg input {
+	font-size: 28upx;
+	color: #fff;
+	padding-left: 80upx !important;
+	position: relative;
+	top: 8upx;
+}
+
+.df_hg_ghuoq {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	height: 70upx;
+	line-height: 70upx;
+}
+
+.dx_btn {
+	line-height: 90upx;
+	height: 90upx;
+	border-radius: 90upx;
+	width: 100%;
+	text-align: center;
+	background: #727EFF;
+	font-size: 30upx;
+	color: #fff;
+}
+
+
+.unfo_drrtxc,
+.sd_jhg_ddrtt {
+	padding-left: 40upx;
+	padding-right: 40upx;
+}
+
+.sd_jhg_ddrtt {
+	line-height: 120upx;
+	color: #808080;
+	position: relative;
+	border-radius: 8upx;
+}
+
+.sd_jhg_ddrtt.ab {
+	padding-right: 60upx;
+	line-height: 90upx;
+}
+
+.right_iconset {
+	width: 11upx;
+	height: 18upx;
+	position: absolute;
+	right: 20upx;
+	top: 38upx;
+}
+
+
+
+.dfs_jh_deret {
+	padding-left: 45upx;
+	padding-right: 45upx;
+}
+
+.sd_jhh_drert_row {
+	background: #B2B3F9;
+	line-height: 72upx;
+	height: 72upx;
+
+	border-radius: 72upx;
+}
+
+.sd_jhh_drert_col {
+	color: #fff;
+	text-align: center;
+	font-size: 28upx;
+
+}
+
+.sd_jhh_drert_col.act {
+	color: #B2B3F9;
+	background: #fff;
+	border-radius: 72upx;
+}
+.yj8{
+	border-radius: 16upx;
+}
+
+
+
+	.linhg_a {
+		width: 40upx;
+		height: 45upx;
+	}
+
+	.linhg_a.ab {
+		width: 62upx;
+		height: 52upx;
+	}
+
+	.linhg_a.ac {
+		width: 54upx;
+		height: 50upx;
+	}
+
+	.qsd_dxcrtxet {
+		height: 55upx;
+		line-height: 55upx;
+	}
+
+	.wsd_jh_dee {
+		width: 28upx;
+		height: 35upx;
+	}
+
+	.qug_deertxc {
+		display: inline-block;
+		width: 87upx;
+		height: 40upx;
+		text-align: center;
+		line-height: 40upx;
+		background: #667AFF;
+		border-radius: 40upx;
+	}
+
+	.wsiu_ddrertxc {
+		width: 60upx;
+		height: 30upx;
+		border-radius: 30upx;
+		text-align: center;
+		line-height: 30upx;
+		color: #fff;
+		background: #F3AE2F;
+		display: inline-block;
+	}
+
+	.df_jh_ddfrrtxc {
+		line-height: 30upx;
+	}
+
+	.down_eerrq {
+		width: 22upx;
+		height: 13upx;
+	}
+
+	.meiyoushuju {
+		width: 269upx;
+		height: 53upx;
+	}
+	.dx_body{
+		padding-left: 40upx;
+		padding-right: 40upx;
+	}

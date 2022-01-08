@@ -1,0 +1,365 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/user/improve_information",
+			"style": {
+				"navigationBarTitleText": "完善基本信息",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"usingComponents": {
+					"van-popup": "/wxcomponents/popup/index",
+					"van-area": "/wxcomponents/area/index"
+				}
+			}
+		},{
+			"path": "pages/user/denglu",
+			"style": {
+				"navigationBarTitleText": " ",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+		},{
+			"path": "pages/practice/index",
+			"style": {
+				"navigationBarTitleText": "大学英语练考赛一体化平台",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue623",
+								"fontSize": "24",
+								"fontSrc": "static/fonts/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},{
+			"path": "pages/practice/wrong_topic",
+			"style": {
+				"navigationBarTitleText": "我的错题",
+					"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue624",
+								"fontSize": "24",
+								"fontSrc": "static/fonts/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},{
+			"path": "pages/practice/moni",
+			"style": {
+				"navigationBarTitleText": "模拟竞赛",
+				 
+				"app-plus": { 
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue624",
+								"fontSize": "20",
+								"fontSrc": "static/fonts/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/practice/zxlx",
+			"style": {
+				"navigationBarTitleText": "专项练习",
+				"app-plus": { 
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue624",
+								"fontSize": "20",
+								"fontSrc": "static/fonts/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},{
+			"path": "pages/practice/ztlx",
+			"style": {
+				"navigationBarTitleText": "主题练习",
+				"app-plus": { 
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue624",
+								"fontSize": "20",
+								"fontSrc": "static/fonts/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},{
+			"path": "pages/practice/sjlx",
+			"style": {
+				"navigationBarTitleText": "随机练习2",
+				 
+				"app-plus": { 
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue624",
+								"fontSize": "20",
+								"fontSrc": "static/fonts/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},  {
+		 	"path": "pages/performance/pk_jieguo",
+		 	"style": {
+		 		"navigationBarTitleText": "PK结果"
+		 	}
+		 },{
+			"path": "pages/performance/pk_zhong",
+			"style": {
+				"navigationBarTitleText": "PK中"
+			}
+		}, {
+			"path": "pages/performance/pk",
+			"style": {
+				"navigationBarTitleText": "pk"
+			}
+		}, {
+			"path": "pages/performance/index",
+			"style": {
+				"navigationBarTitleText": " "
+			}
+		}, {
+			"path": "pages/performance/record_details",
+			"style": {
+				"navigationBarTitleText": "成绩详情"
+			}
+		}, {
+			"path": "pages/user/cidian",
+			"style": {
+				"navigationBarTitleText": "词典",
+				"usingComponents": {
+					"van-swipe-cell": "/wxcomponents/swipe-cell/index"
+				}
+			}
+		}, {
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"usingComponents": {
+					"van-popup": "/wxcomponents/popup/index"
+				}
+			}
+		}, {
+			"path": "pages/independent_study/index",
+			"style": {
+				"navigationBarTitleText": "自主学习",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue60c",
+								"fontSize": "20",
+								"fontSrc": "static/fonts/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},  {
+			"path": "pages/user/user_center",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"usingComponents": {
+					"van-popup": "/wxcomponents/popup/index"
+				}
+			}
+		}, {
+			"path": "pages/user/About_Us",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/user/usinghelp",
+			"style": {
+				"navigationBarTitleText": "使用帮助",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/user/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/user/message_center",
+			"style": {
+				"navigationBarTitleText": "消息中心",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"usingComponents": {
+					"van-swipe-cell": "/wxcomponents/swipe-cell/index",
+					"van-cell": "/wxcomponents/cell/index",
+					"van-cell-group": "/wxcomponents/cell-group/index"
+				}
+			}
+		}, {
+			"path": "pages/user/used_settings",
+			"style": {
+				"navigationBarTitleText": "常用设置",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/user/account_authorization",
+			"style": {
+				"navigationBarTitleText": "账号授权",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/user/security_settings",
+			"style": {
+				"navigationBarTitleText": "安全设置",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"usingComponents": {
+					"van-popup": "/wxcomponents/popup/index"
+				}
+			}
+		},  {
+			"path": "pages/user/school_name",
+			"style": {
+				"navigationBarTitleText": "院校名称",
+				"navigationBarBackgroundColor": "#fff",
+				"backgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		}, {
+			"path": "pages/user/face_login",
+			"style": {
+				"navigationBarTitleText": "人脸识别登录",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"scrollIndicator": "none"
+
+				}
+
+			}
+		},
+		{
+			"path": "pages/user/zhuce",
+			"style": {
+				"navigationBarTitleText": "用户注册"
+			}
+		},
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "江 小 鲤",
+				"bz": "2.练考赛辅助系统APP-首页",
+				"app-plus": {
+
+					"titleNView": {
+						"buttons": [
+							//原生标题栏按钮配置,
+							{
+								"text": "\ue623",
+								"fontSize": "24",
+								"fontSrc": "static/fonts/iconfont.ttf"
+							},
+							{
+								"text": "\ue61c",
+								"fontSize": "22",
+								"float": "left",
+								"fontSrc": "static/fonts/iconfont.ttf"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/xiexi",
+			"style": {
+				"navigationBarTitleText": " ",
+				"navigationBarBackgroundColor": "#6A7BFF",
+				"backgroundColor": "#6A7BFF"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "slide-view",
+				"usingComponents": {}
+			}
+		}
+	],
+
+	"tabBar": {
+		"color": "#7C7C7C",
+		"selectedColor": "#5b64fd",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/practice/index",
+			"iconPath": "static/img/dibu/ddfd_a_a.png",
+			"selectedIconPath": "static/img/dibu/ddfd_b_a.png",
+			"text": "练一练"
+		}, {
+			"pagePath": "pages/independent_study/index",
+			"iconPath": "static/img/dibu/ddfd_a_b.png",
+			"selectedIconPath": "static/img/dibu/ddfd_b_b.png",
+			"text": "自主学习"
+		}, {
+			"pagePath": "pages/performance/index",
+			"iconPath": "static/img/dibu/ddfd_a_c.png",
+			"selectedIconPath": "static/img/dibu/ddfd_b_c.png",
+			"text": "成绩  排行"
+		}, {
+			"pagePath": "pages/user/index",
+			"iconPath": "static/img/dibu/ddfd_a_d.png",
+			"selectedIconPath": "static/img/dibu/ddfd_b_d.png",
+			"text": "个人中心"
+		}]
+	},
+
+
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#6A7BFF",
+		"backgroundColor": "#6A7BFF"
+	}
+}
